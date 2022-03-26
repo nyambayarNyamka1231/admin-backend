@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "us_buczalgagches",
+  "info": {
+    "singularName": "us-buczalgagch",
+    "pluralName": "us-buczalgagches",
+    "displayName": "Ус буцалгагч",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "code": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "price": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
